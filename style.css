@@ -1,13 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.7.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -182,7 +172,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 4, 4);
 }
 
 .nav-menu a:hover i,
@@ -195,17 +185,17 @@ h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 10px;
+  top: 10px;
   z-index: 9998;
-  border: 0;
-  font-size: 24px;
+  border: 5px solid black;
+  font-size: 30px;
   transition: all 0.4s;
   outline: none !important;
   background-color: #149ddd;
-  color: #fff;
-  width: 40px;
-  height: 40px;
+  color: rgb(255, 0, 0);
+  width: 30px;
+  height: 28px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -989,7 +979,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type=submit] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -998,7 +988,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
 
@@ -1101,78 +1091,4 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
-}
-
-.services-area {
-  background-color: #eeeeee;
-}
-
-.services-area h2 {
-  padding-top: 2em;
-  position: relative;
-  font-family: "Bebas Neue", cursive;
-}
-
-.services-icon i {
-  font-size: 35px;
-  color: #ffffff;
-}
-
-.services-content h3 {
-  line-height: 1.9;
-  text-transform: uppercase;
-}
-
-.services-icon {
-  border: 1px solid teal;
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  padding: 20px;
-  background-color: teal;
-}
-
-.single-services {
-  padding: 40px 20px;
-  box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px,
-    rgba(58, 78, 95, 0.05) 0 -5px 16px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-}
-
-.single-services:hover {
-  box-shadow: 1px 3px 4px 5px rgba(199, 199, 199, 0.8);
-  transition: ease 0.09s;
-  -webkit-transition: ease 0.09s;
-  -moz-transition: ease 0.09s;
-  -ms-transition: ease 0.09s;
-  -o-transition: ease 0.09s;
-}
-
-.single-services:hover .services-icon {
-  background-color: #ffffff;
-  transition: ease 0.3s;
-  border-color: teal;
-}
-
-.single-services:hover .services-icon i {
-  color: teal;
-}
-
-.single-services:hover {
-  background-color: teal;
-  -webkit-transition: 0.9s;
-  -moz-transition: 0.9s;
-  -ms-transition: 0.9s;
-  -o-transition: 0.9s;
-  transition: 0.9s;
-}
-
-.single-services:hover .services-content {
-  color: #ffffff;
-}
-
-.single-services:hover .services-content h3 {
-  color: #ffffff;
 }
